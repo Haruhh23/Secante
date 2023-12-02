@@ -2,6 +2,6 @@
 
 namespace Funciones {
     double FuncionObjetivo::evaluar(double x) {
-        // Implementación de la función objetivo
+        return x*x-2;
     }
 }
