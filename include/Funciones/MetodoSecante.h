@@ -1,8 +1,13 @@
-#pragma once
+#ifndef METODO_SECANTE_H
+#define METODO_SECANTE_H
 
-#include "EntradaDatos.h"
+namespace Funciones {
 
 class MetodoSecante {
 public:
-    double encontrarRaiz(double x0, double x1, int numIteraciones, int decimales);
+    static double encontrarRaiz(double x0, double x1, int numIteraciones, int decimales);
 };
+
+}  // namespace Funciones
+
+#endif  // METODO_SECANTE_H

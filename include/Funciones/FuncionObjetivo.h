@@ -1,6 +1,11 @@
-#pragma once
+#ifndef FUNCIONES_FUNCIONOBJETIVO_H
+#define FUNCIONES_FUNCIONOBJETIVO_H
 
-class FuncionObjetivo {
-public:
-    double evaluar(double x);
-};
+namespace Funciones {
+    class FuncionObjetivo {
+    public:
+        double evaluar(double x);
+    };
+}
+
+#endif // FUNCIONES_FUNCIONOBJETIVO_H

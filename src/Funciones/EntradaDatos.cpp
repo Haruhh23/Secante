@@ -1,7 +1,8 @@
 #include "Funciones/EntradaDatos.h"
 #include <iostream>
 
-void EntradaDatos::ingresarDatos(double &x0, double &x1, int &numIteraciones, int &decimales) {
+namespace Funciones {
+  void EntradaDatos::ingresarDatos(double &x0, double &x1, int &numIteraciones, int &decimales) {
     std::cout << "Ingrese la aproximacion inicial x0: ";
     std::cin >> x0;
     std::cout << "Ingrese la aproximacion inicial x1: ";
@@ -10,4 +11,5 @@ void EntradaDatos::ingresarDatos(double &x0, double &x1, int &numIteraciones, in
     std::cin >> numIteraciones;
     std::cout << "Ingrese la cantidad de decimales con los que desea trabajar: ";
     std::cin >> decimales;
+    }
 }

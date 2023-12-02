@@ -1,8 +1,7 @@
-#include "Funciones/FuncionObjetivo.h"  // Corregir la ruta del archivo de encabezado
-#include <cmath>
+#include "Funciones/FuncionObjetivo.h"
 
-double FuncionObjetivo::evaluar(double x) {
-    // Aquí debes definir tu propia función objetivo
-    // Ejemplo: f(x) = x^2 - 4
-    return x * x - 4;
+namespace Funciones {
+    double FuncionObjetivo::evaluar(double x) {
+        // Implementación de la función objetivo
+    }
 }

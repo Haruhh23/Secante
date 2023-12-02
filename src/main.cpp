@@ -3,9 +3,9 @@
 #include "Funciones/SalidaResultados.h"
 
 int main() {
-    EntradaDatos entradaDatos;
-    MetodoSecante metodoSecante;
-    SalidaResultados salidaResultados;
+    Funciones::EntradaDatos entradaDatos;
+    Funciones::MetodoSecante metodoSecante;
+    Funciones::SalidaResultados salidaResultados;
 
     double x0, x1;
     int numIteraciones, decimales;
