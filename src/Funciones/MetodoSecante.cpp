@@ -13,10 +13,10 @@ double MetodoSecante::encontrarRaiz(double x0, double x1, int numIteraciones, in
               << "x1" << std::setw(15) << "f(x1)" << std::setw(15) << "xn" << std::setw(15) << "f(xn)" << std::setw(15)
               << "Error" << std::endl;
 
-    FuncionObjetivo funcionObjetivo;  // Crear un objeto de la clase FuncionObjetivo
+    FuncionObjetivo funcionObjetivo;  
 
     for (int i = 0; i < numIteraciones; ++i) {
-        fx0 = funcionObjetivo.evaluar(x0);  // Llamar a la función de miembro usando el objeto
+        fx0 = funcionObjetivo.evaluar(x0);  
         fx1 = funcionObjetivo.evaluar(x1);
 
         xn = x1 - (fx1 * (x1 - x0)) / (fx1 - fx0);
