@@ -2,7 +2,8 @@
 #include "Funciones/MetodoSecante.h"
 #include "Funciones/SalidaResultados.h"
 
-int main() {
+int main()
+{
     Funciones::EntradaDatos entradaDatos;
     Funciones::MetodoSecante metodoSecante;
     Funciones::SalidaResultados salidaResultados;

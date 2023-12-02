@@ -1,6 +1,7 @@
 #pragma once
 
-class EstimadorDerivada {
+class EstimadorDerivada
+{
 public:
     double estimar(double x, double h);
 };

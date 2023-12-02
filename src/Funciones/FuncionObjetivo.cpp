@@ -1,7 +1,9 @@
 #include "Funciones/FuncionObjetivo.h"
 
-namespace Funciones {
-    double FuncionObjetivo::evaluar(double x) {
-        return x*x-2;
+namespace Funciones
+{
+    double FuncionObjetivo::evaluar(double x)
+    {
+        return x * x - 2;
     }
 }
