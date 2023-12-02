@@ -1,4 +1,4 @@
-#include "MetodoSecante.h"
+#include "Funciones/MetodoSecante.h"
 #include <cmath>
 
 double MetodoSecante::encontrarRaiz(double x0, double x1, int numIteraciones, int decimales) {

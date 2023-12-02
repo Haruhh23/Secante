@@ -1,5 +1,5 @@
 
-#include "SalidaResultados.h"
+#include "Funciones/SalidaResultados.h"
 #include <iostream>
 #include <iomanip>
 

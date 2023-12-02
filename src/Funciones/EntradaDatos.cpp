@@ -1,4 +1,4 @@
-#include "EntradaDatos.h"
+#include "Funciones/EntradaDatos.h"
 #include <iostream>
 
 void EntradaDatos::ingresarDatos(double &x0, double &x1, int &numIteraciones, int &decimales) {

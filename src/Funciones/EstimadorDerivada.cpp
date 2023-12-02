@@ -1,6 +1,7 @@
-#include "EstimadorDerivada.h"
+#include "Funciones/EstimadorDerivada.h"
+#include "Funciones/FuncionObjetivo.h"  // Corregir la ruta del archivo de encabezado
 
-double EstimadorDerivada::estimarDerivada(double x) {
-    double h = 1e-8;
-    return (FuncionObjetivo()(x + h) - FuncionObjetivo()(x)) / h;
+double EstimadorDerivada::estimar(double x, double h) {
+    FuncionObjetivo funcionObjetivo;
+    return (funcionObjetivo.evaluar(x + h) - funcionObjetivo.evaluar(x)) / h;
 }

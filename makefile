@@ -6,9 +6,9 @@ SRC_DIR = src
 OBJ_DIR = obj
 BIN_DIR = bin
 
-SOURCES = $(wildcard $(SRC_DIR)/*.cpp)
+SOURCES = $(wildcard $(SRC_DIR)/Funciones/*.cpp) $(SRC_DIR)/main.cpp
 OBJECTS = $(patsubst $(SRC_DIR)/%.cpp, $(OBJ_DIR)/%.o, $(SOURCES))
-EXECUTABLE = $(BIN_DIR)/mi_proyecto
+EXECUTABLE = $(BIN_DIR)/secante
 
 .PHONY: all clean
 
@@ -16,7 +16,7 @@ all: $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJECTS)
 	@mkdir -p $(BIN_DIR)
-	$(CXX) $(CXXFLAGS) $(INCLUDES) $^ -o $@
+	$(CXX) $(CXXFLAGS) $^ -o $@
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
 	@mkdir -p $(@D)

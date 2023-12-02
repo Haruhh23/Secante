@@ -2,5 +2,5 @@
 
 class FuncionObjetivo {
 public:
-    double operator()(double x);
+    double evaluar(double x);
 };
