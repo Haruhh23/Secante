@@ -1,12 +1,12 @@
 # Secante
 
-#Calculadora de Raíces con Método de la Secante
+##Calculadora de Raíces con Método de la Secante
 
 Este programa en C++ te permite calcular las raíces de una función mediante el Método de la Secante. Proporciona una interfaz sencilla en la terminal para ingresar el rango de evaluación de la función y los parámetros necesarios para aplicar el método.
 
-#Uso#
+###Uso
 
-##Compilación##
+####Compilación
 Asegúrate de tener g++ instalado. Si no lo tienes, puedes instalarlo con el siguiente comando:
 
 sudo apt-get update
