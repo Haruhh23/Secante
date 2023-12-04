@@ -44,7 +44,7 @@ Visualizar Resultados de la Función:
 
 La tabla mostrará los valores de x y f(x) en el rango especificado.
 
-Ingresar Parámetros para Método de la Secante:
+#Ingresar Parámetros para Método de la Secante:
 
 Valor inicial x0: -1
 Valor inicial x1: 0
@@ -53,7 +53,7 @@ Visualizar Proceso del Método de la Secante:
 
 La tabla detallará cada iteración del método.
 
-Resultado Final:
+#Resultado Final:
 
 El programa proporcionará la aproximación de la raíz.
 
@@ -74,14 +74,3 @@ Número máximo de iteraciones: 5
 
 ---- Proceso del método de la secante ----
 
-Iteración | x | f(x)
----|---|---|
-1 | -1 | -1
-2 | -0.5 | -0.75
-3 | -0.25 | -0.5625
-4 | -0.125 | -0.390625
-5 | -0.0625 | -0.246094
-
----- Resultado final ----
-
-La raíz aproximada de la función es: -0.0625
