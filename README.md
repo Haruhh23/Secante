@@ -4,9 +4,9 @@
 
 Este programa en C++ te permite calcular las raíces de una función mediante el Método de la Secante. Proporciona una interfaz sencilla en la terminal para ingresar el rango de evaluación de la función y los parámetros necesarios para aplicar el método.
 
-### Uso
+# Uso
 
-#### Compilación
+## Compilación
 Asegúrate de tener g++ instalado. Si no lo tienes, puedes instalarlo con el siguiente comando:
 
 sudo apt-get update
@@ -14,24 +14,25 @@ sudo apt-get install g++
 Compila el programa utilizando el siguiente comando:
 
 **make**
-##Ejecución##
+## Ejecución
 Ejecuta el programa compilado:
 
-./bin/secante
-Funcionalidades
+**./bin/secante**
 
-Ingreso de Datos: Ingresa el rango de evaluación de la función y otros parámetros solicitados por el programa.
+## Funcionalidades
 
-Visualización de Resultados de la Función: Visualiza una tabla con los valores de x y f(x) en el rango especificado.
+- Ingreso de Datos: Ingresa el rango de evaluación de la función y otros parámetros solicitados por el programa.
 
-Método de la Secante: Ingresa los valores iniciales para aplicar el Método de la Secante.
+- Visualización de Resultados de la Función: Visualiza una tabla con los valores de x y f(x) en el rango especificado.
 
-Observa el proceso iterativo del método con una tabla detallada.
+- Método de la Secante: Ingresa los valores iniciales para aplicar el Método de la Secante.
 
-Resultado Final: Al finalizar, obtén la aproximación de la raíz de la función.
-Ejemplo de Uso
+- Observa el proceso iterativo del método con una tabla detallada.
 
-Supongamos que deseas calcular las raíces de la función f(x)=x⋅sin(x)−1. A continuación, se muestra cómo puedes utilizar el programa:
+- Resultado Final: Al finalizar, obtén la aproximación de la raíz de la función.
+#Ejemplo de Uso
+
+Supongamos que deseas calcular las raíces de la función f(x)=x⋅x-2. A continuación, se muestra cómo puedes utilizar el programa:
 
 Ingresar Rango de Evaluación:
 
@@ -65,18 +66,6 @@ Número total de evaluaciones: 10
 Número de cifras significativas: 6
 
 ---- Resultados de la función ----
-
-x | f(x)
----|---
--2.0000 | -2.0249
--1.9000 | -1.8963
--1.8000 | -1.7616
--1.7000 | -1.6222
--1.6000 | -1.4787
--1.5000 | -1.3321
--1.4000 | -1.1830
--1.3000 | -1.0323
--1.2000 | -0.8810
 
 Ingrese los parámetros para el método de la secante:
 Valor inicial x0: -1
