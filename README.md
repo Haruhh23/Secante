@@ -40,47 +40,20 @@ Ejecuta el programa compilado:
 - Resultado Final: Al finalizar, obtén la aproximación de la raíz de la función.
   ![image](https://github.com/Haruhh23/Secante/assets/143463450/d8cf273d-7a66-4526-a9a7-475d3de34d0b)
 
-#Ejemplo de Uso
+# Ejemplo de Uso
 
 Supongamos que deseas calcular las raíces de la función f(x)=x⋅x-2. A continuación, se muestra cómo puedes utilizar el programa:
 
 Ingresar Rango de Evaluación:
 
-Inicio del rango: -2
-Fin del rango: 2
-Número total de evaluaciones: 10
-Número de cifras significativas: 6
+Inicio del rango: 2
+Fin del rango: 6
+Número total de evaluaciones: 5
+Número de cifras significativas: 4
 Visualizar Resultados de la Función:
 
-La tabla mostrará los valores de x y f(x) en el rango especificado.
+![image](https://github.com/Haruhh23/Secante/assets/143463450/9d7345ad-f0f7-484a-b0df-7a8f9ca962b3)
 
-#Ingresar Parámetros para Método de la Secante:
 
-Valor inicial x0: -1
-Valor inicial x1: 0
-Número máximo de iteraciones: 5
-Visualizar Proceso del Método de la Secante:
 
-La tabla detallará cada iteración del método.
-
-#Resultado Final:
-
-El programa proporcionará la aproximación de la raíz.
-
-Resultado de la ejecución del programa para el ejemplo anterior:
-
-Ingrese el rango de evaluación de la función:
-Inicio del rango: -2
-Fin del rango: 2
-Número total de evaluaciones: 10
-Número de cifras significativas: 6
-
----- Resultados de la función ----
-
-Ingrese los parámetros para el método de la secante:
-Valor inicial x0: -1
-Valor inicial x1: 0
-Número máximo de iteraciones: 5
-
----- Proceso del método de la secante ----
 
